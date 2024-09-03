@@ -1,0 +1,65 @@
+body {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  background-color: black;
+  list-style: none;
+  padding: 10px;
+}
+.nav li {
+  display: inline;
+}
+.nav li a {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+.nav li a:hover {
+  color: red;
+}
+table {
+  background-color: white;
+  border-collapse: collapse;
+  border: 2px solid black;
+  width: 90%;
+  margin: auto;
+}
+tr,
+th {
+  border: 1px solid rgb(161, 159, 159);
+}
+hr#test1 {
+  border: 1px solid black;
+}
+
+hr#test2 {
+  border: 1px solid rgb(126, 124, 124);
+}
+.textcol {
+  color: red;
+}
+.btnJs {
+  font-size: 17px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btnJs:hover {
+  color: red;
+}
+.price_css {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.reg {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.regForm {
+  background-color: rgb(242, 242, 242);
+}

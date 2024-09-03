@@ -1,0 +1,92 @@
+/* Form container */
+.regForm {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Label styling */
+.regForm label {
+  display: block;
+  margin-bottom: -10px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.gender-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.gender-group label {
+  margin-right: 30px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.gender-group input {
+  margin-bottom: 10px;
+}
+
+/* Input and select styling */
+.regForm input[type="text"],
+.regForm input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.regForm select {
+  width: 20%;
+  padding: 8px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.regForm textarea {
+  width: 40%;
+  height: 200px;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Radio button styling */
+.regForm input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Checkbox styling */
+.regForm input[type="checkbox"] {
+  margin-right: 100px;
+}
+
+/* Button styling */
+.regForm button {
+  width: 8%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.regForm button:hover {
+  background-color: #45a049;
+}
