@@ -108,3 +108,31 @@ for (let i = currentYear; i >= 1900; i--) {
   option.text = i;
   yearSelect.appendChild(option);
 }
+
+//============== password check =================
+
+function checkPassword() {
+  var password = document.getElementById("fpassword").value;
+  var rePassword = document.getElementById("frepassword").value;
+
+  if (password !== rePassword) {
+    alert("Password Mismatch!");
+    return false;
+  } else {
+    alert("Success!");
+    return true;
+  }
+}
+
+//================= check box ================
+
+function enableButton() {
+  var checkbox = document.getElementById("privacyPolicy");
+  var submitButton = document.getElementById("submitButton");
+
+  if (checkbox.checked) {
+    submitButton.disabled = false;
+  } else {
+    submitButton.disabled = true;
+  }
+}
