@@ -1,6 +1,6 @@
 <?php 
 $servername = "localhost"; 
-$username = "username"; 
+$username = "root"; 
 $password = "12345"; 
 $database = "shoppingCart"; 
 
